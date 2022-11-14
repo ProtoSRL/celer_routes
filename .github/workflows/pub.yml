@@ -1,0 +1,34 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: publish
+    strategy: 
+      matrix:
+        project:
+          - all_dog_treasures
+          - shrine_collection_gerudo
+          - triforce
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+
+      - name: get bundle.json
+        run: |
+          mkdir publish
+          cp projects/${{ matrix.project }}/bundle.json publish
+
+      - name: publish to branch
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: "${{ matrix.project }}"
+          folder: publish

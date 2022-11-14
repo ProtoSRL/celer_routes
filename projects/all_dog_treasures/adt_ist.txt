@@ -1,0 +1,16 @@
+Initialize 1 Slate 4 SpiritOrb 1 Glider
+Get 1 BokoSpear 1 Torch 1 TravelersBow 1 Potlid[life=300] 1 Potlid
+Get 2 SpicyPepper 2 StamellaShroom 2 Rawbirddrumstick 2 Apple 2 Wood
+D&P 2 Apple 2 SpicyPepper 2 StamellaShroom 
+Equip Potlid in Slot 2
+Save
+Break 5 Slots
+With all RawBirdDrumstick all Apple all Wood all Pepper all StamellaShroom
+Unequip Potlid
+Reload
+Save
+Unequip Potlid
+Drop all RawBirdDrumstick all Apple all Wood all Pepper all StamellaShroom
+Reload
+Save
+Reload

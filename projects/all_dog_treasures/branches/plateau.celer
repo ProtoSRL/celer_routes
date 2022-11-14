@@ -1,0 +1,45 @@
+Plateau:
+- _Material<6 Spicy Peppers>:
+    line-color: rgb(255,0,0)
+    coord: [-965.30, 238.52, 1956.67]
+
+- _Equipment::Weapon<Pot Lid & Boko Spear>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Chest<Traveler's Bow>:
+    comment: And 5 Arrows
+    coord: [-832.43, 222.00, 1963.11]
+
+- _Shrine::JaBaij:
+    split-type: UserDefined
+
+- _Tower::GreatPlateau
+
+- _Shrine::OmanAu:
+    split-type: UserDefined
+
+- BLSS to Old Man's Hut:
+    notes: Shoot Wood Pigeon(s)
+
+- _Material<2 Stamella Shrooms>:
+    coord: [-786.73, 193.17, 2266.77]
+
+- _Equipment::Weapon<Torch & Pot Lid>:
+    coord: [-798.90, 193.32, 2262.30]
+
+- _Material<2 Raw Bird Drumsticks>:
+    hide-icon-on-map: true
+
+- _Material<2 Apples & 2 Wood>:
+    coord: [-856.45, 192.73, 2274.48]
+
+- _Shrine::OwaDaim:
+    split-type: UserDefined
+
+- _Shrine::KehNamut:
+    split-type: UserDefined
+
+- Paraglider:
+    icon: king
+    coord: [-812, 1966.1012189378007]
+    split-type: UserDefined

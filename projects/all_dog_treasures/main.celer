@@ -1,0 +1,20 @@
+---
+_project:
+  authors: 
+    - ProtoSRL
+  description: "A BOTW Celer route for All Dog Treasures"
+  name: All Dog Treasures
+  url: "https://github.com/protosrl/celer_routes/tree/all_dog_treasures"
+  version: 1.0.0
+_route:
+  - (?=) This route will utilize IST to duplicate items. To better visualize what is happening in the game's memory, refer to iTNTPiston's IST simulator, and use the attached code .link([IST Simulator]https://ist.itntpiston.app/) -> .link([IST Setup]https://raw.githubusercontent.com/ProtoSRL/celer_routes/main/projects/all_dog_treasures/adt_ist.txt)
+  - Plateau:
+    - __use__ Plateau
+  - Hateno:
+    - __use__ Hateno
+  - Eldin:
+    - __use__ Eldin
+  - Hebra:
+    - __use__ Hebra
+  - Tarrey:
+    - __use__ Tarrey

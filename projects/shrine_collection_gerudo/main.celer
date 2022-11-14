@@ -1,0 +1,13 @@
+---
+_project:
+  authors: 
+    - ProtoSRL
+  description: "A BOTW Celer route for Shrine Collection (Gerudo)"
+  name: Shrine Collection (Gerudo)
+  url: "https://github.com/protosrl/celer_routes/tree/shrine_collection_gerudo"
+  version: 1.0.0
+_route:
+  - Plateau:
+    - __use__ Plateau
+  - Gerudo:
+    - __use__ Gerudo

@@ -1,0 +1,110 @@
+Hateno:
+- WB .dir(W>> Mid) to ToD cutscene
+
+- WB .dir(NW) to Outskirt Stable:
+    notes: Super Launch
+    coord: [-1028.75,1794.75]
+
+- Perform IST
+
+- _Npc<Talk to Beedle>:
+    comment: Sell ~375 Drumsticks
+    coord: [-1421.55, 137.73, 1280.33]
+
+- _Chest<Outskirt Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dog
+    movements: 
+      - to: [-1431.00, 137.76, 1256.00]
+      - to: [-1414.48, 136.96, 1248.51]
+    var-change:
+      Dog: 1
+
+- WB .dir(<W) to stable mane
+
+- BLSS to Highland Stable:
+    coord: [-1449.5625,1268.875]
+
+- _Chest<Highland Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [529.89, 153.06, 3479.93]
+      - to: [536.47, 151.91, 3425.20]
+    var-change:
+      Dog: 1
+
+- WB .dir(S) to Korok Puzzle
+
+- BLSS to Lakeside Stable:
+    coord: [546.27, 231.59, 3580.35]
+
+- _Chest<Lakeside Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [1529.76, 166.19, 3530.13]
+      - to: [1528.13, 166.29, 3505.75]
+    var-change:
+      Dog: 1
+
+- BLSS to Lurelin Village:
+    coord: [1532.46, 166.13, 3509.69]
+
+- _Chest<Lurelin Village Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [2869.76, 106.45, 3433.88]
+      - to: [2857.95, 109.76, 3380.44]
+    var-change:
+      Dog: 1
+
+- WBs to BLSS spot:
+    notes: <N, <N, E
+
+- BLSS to Dueling Peaks Stable:
+    coord: [2993.31, 291.36, 3209.30]
+
+- _Chest<Dueling Peaks Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [1767.00, 115.58, 1941.50]
+      - to: [1782.33, 116.20, 1910.04]
+    var-change:
+      Dog: 1
+
+- WBs to BLSS spot:
+    notes: W>, S>
+
+- BLSS to Hateno House:
+    coord: [1565,1967.375]
+
+- _Npc<Talk to Bolson>:
+    comment: Make noon
+    coord: [3317.5625,2302.4375]
+
+- _Npc<Talk to Bolson & Hudson>:
+    comment: Make night
+    coord: [3331.22, 235.28, 2284.61]
+
+- WBs to Hateno Ranch:
+    notes: NE, <<E Mid
+    coord: [3334.125,2267.75]
+
+- _Chest<Hateno Village Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    notes: WB N to the treasure
+    movements: 
+      - to: [3609.04, 282.81, 2044.48]
+      - to: [3613.53, 285.24, 1956.71] 
+    var-change:
+      Dog: 1

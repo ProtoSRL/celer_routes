@@ -1,0 +1,13 @@
+---
+_project:
+  authors: 
+    - ProtoSRL
+  description: "A BOTW Celer route for Triforce%"
+  name: Triforce%
+  url: "https://github.com/protosrl/celer_routes/tree/triforce"
+  version: 1.0.0
+_route:
+  - Plateau:
+    - __use__ Plateau
+  - Springs:
+    - __use__ Springs

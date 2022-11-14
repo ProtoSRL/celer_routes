@@ -1,0 +1,43 @@
+Eldin:
+- WBs to BLSS spot:
+    notes: E>, <<S Mid
+
+- BLSS to East Akkala Stable:
+    coord: [3806,2119.625]
+
+- _Chest<East Akkala Stable Dog>:
+    line-color: rgb(255,100,0)
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [4227.17, 231.44, -2733.19]
+      - to: [4199.77, 230.60, -2747.94]
+    var-change:
+      Dog: 1
+      
+- BLSS to Tarrey Town
+
+- _Npc<Talk to Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+
+- WBs to Dah Hesho:
+    notes: S, S>
+
+- _Shrine::DahHesho:
+    text: Activate Dah Hesho
+
+- BLSS to South Akkala Stable:
+    notes: Elevator BLSS
+
+- _Chest<South Akkala Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [3160.93, 306.78, -1716.53]
+      - to: [3202.18, 306.05, -1702.60]
+    var-change:
+      Dog: 1
+
+- (?=) It is fairly common to get a panic blood moon around this part of the run. If one occurs, quickly pick up the dropped chicken, then try feeding the dog again after the Blood Moon

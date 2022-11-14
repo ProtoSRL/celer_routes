@@ -1,0 +1,58 @@
+Tarrey:
+- BLSS to Serenne Stable
+
+- _Chest<Serenne Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [-1544.30, 212.22, -1793.92]
+      - to: [-1542.01, 212.00, -1761.31]
+    var-change:
+      Dog: 1
+
+- WB .dir(<N) to stable mane
+
+- BLSS to Woodland Stable:
+    coord: [-1559.37, 212.32, -1799.05]
+
+- _Chest<Woodland Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [1045.43, 127.57, -1148.37]
+      - to: [992.80, 125.70, -1132.40]
+    var-change:
+      Dog: 1
+
+- WB .dir(N>) to trees
+
+- BLSS to Wetland Stable:
+    coord: [986.39, 186.13, -1373.23]
+
+- _Chest<Wetland Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [890.25,195.71]
+      - to: [924.94, 139.80, 274.55]
+    var-change:
+      Dog: 1
+
+- _Warp::Shrine::DahHesho:
+    text: Warp to Dah Hesho
+
+- WB .dir(N to N>>) to Tarrey Town
+
+- _Chest<Tarrey Town Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    notes: Shoot the brown dog
+    movements: 
+      - to: [3920.63, 236.98, -1628.46]
+      - to: [3940.30, 232.60, -1649.20]
+    var-change:
+      Dog: 1

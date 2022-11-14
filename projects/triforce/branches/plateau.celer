@@ -1,0 +1,30 @@
+Plateau:
+- _Material<3 Spicy Peppers>:
+    line-color: rgb(0,255,50)
+    coord: [-965.30, 238.52, 1956.67]
+
+- _Equipment::Weapon<Pot Lid & Boko Spear>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+    comment: And 5 Arrows
+
+- _Shrine::JaBaij:
+    split-type: UserDefined
+
+- _Tower::GreatPlateau
+
+- _Shrine::OmanAu:
+    split-type: UserDefined
+
+- _Shrine::OwaDaim:
+    split-type: UserDefined
+
+- _Shrine::KehNamut:
+    split-type: UserDefined
+
+- Paraglider:
+    icon: king
+    coord: [-812, 1966.1012189378007]
+    split-type: UserDefined

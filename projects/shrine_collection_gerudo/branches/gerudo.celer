@@ -1,0 +1,113 @@
+Gerudo:
+- WB .dir(N to N>>) to Arrows
+
+- _Chest<Fire & Ice Arrows>:
+    coord: [-774.85, 174.80, 1558.65]
+    notes: Eat Seared Steak
+
+- _Warp::Shrine::KehNamut:
+    text: Warp to Keh Namut
+
+- BLSS to Sunshrooms
+
+- _Material<2 Sunshrooms>:
+    line-color: rgb(0,165,255)
+    coord: [-2179.02, 339.73, 2337.91]
+
+- WB .dir(W) to Ore Deposits:
+    coord: [-2283.07, 406.82, 2350.04]
+
+- Moblin BTB to Cooking Pot
+
+- _Material<Mighty Bananas>:
+    coord: [-2811.65, 626.17, 1560.11]
+
+- _Cook<Spicy Food>:
+    comment: Eat this before next WB
+    notes: 2 Spicy Peppers & 2 Sunshrooms
+    coord: [-2813.86, 625.49, 1558.21]
+
+- _Material<3 Mighty Bananas>:
+    coord: [-2805.70, 626.80, 1554.24]
+    hide-icon-on-map: true
+
+- WB .dir(NW) to Shock Arrows
+
+- _Chest<5 Shock Arrows>:
+    coord: [-3211.90, 640.36, 1537.55]
+
+- Shield surf down to next chest
+
+- _Chest<Radiant Shield>:
+    notes: Equip it & Sort inventory
+    coord: [-3249.24, 506.41, 1463.64]
+    hide-icon-on-map: true
+
+- WB .dir(NE) to Fire Arrows
+- _Chest<5 Fire Arrows>:
+    coord: [-3121.93, 550.32, 1325.76]
+
+- Shoot glacier with Fire Arrows
+
+- _Shrine::KuhTakkar:
+    split-type: UserDefined
+    comment: .v(Shrines) Shrine
+    var-change:
+        Shrines: 1
+
+- WB .dir(N>) to BLSS Spot:
+    notes: Off of the side of shrine
+
+- BLSS to Keeha Yoog updraft:
+    notes: Activate with Shock Arrow
+    coord: [-3189.375,1029.75]
+
+- _Shrine::KeehaYoog:
+    split-type: UserDefined
+    comment: .v(Shrines) Shrines
+    var-change:
+        Shrines: 1
+
+- BLSS to Kema Kosassa:
+    notes: Elevator BLSS
+
+- _Shrine::KemaKosassa:
+    split-type: UserDefined
+    comment: .v(Shrines) Shrines
+    var-change:
+        Shrines: 1
+
+- BLSS to Sho Dantu
+
+- _Shrine::ShoDantu:
+    split-type: UserDefined
+    comment: .v(Shrines) Shrines
+    var-change:
+        Shrines: 1
+
+- SCW and WBs to Sasa Kai:
+    comment: Use amiibo to activate SCW
+    notes: N>, <S to S
+
+- _Shrine::SasaKai:
+    split-type: UserDefined
+    comment: .v(Shrines) Shrines
+    var-change:
+        Shrines: 1
+
+- _Warp::Shrine::KuhTakkar:
+    text: Warp to Kuh Takkar
+    line-color: rgb(0,100,255)
+
+- SCW from Kuh Takkar
+- WB .dir(<<N to N) to BLSS spot
+
+- BLSS to Joloo Nah:
+    notes: Roast Truffle to activate SCW
+    coord: [-3205.75,1030.5]
+
+- _Shrine::JolooNah:
+    split-type: UserDefined
+    comment: .v(Shrines) Shrines
+    var-change:
+        Shrines: 1

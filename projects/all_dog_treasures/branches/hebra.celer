@@ -1,0 +1,89 @@
+Hebra:
+- WBs to BLSS spot:
+    notes: <S, N, S Mid, N
+
+- BLSS to Southern Mine:
+    coord: [3279.25,-1571.5]
+
+- _Npc::Goron<Talk to Greyson>:
+    coord: [1656.63, 430.15, -1968.53]
+
+- _Warp::Shrine::DahHesho:
+    text: Warp to Dah Hesho
+
+- WB .dir(N>> to N) to Tarrey Town
+
+- _Npc<Talk to Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+
+- _Warp::Shrine::KehNamut:
+    text: Warp to Keh Namut
+
+- BLSS to Gerudo Canyon Stable
+
+- _Chest<GC Stable Dog>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [-2807.77, 134.87, 2239.03]
+      - to: [-2780.03, 134.33, 2235.16]
+    var-change:
+      Dog: 1
+
+- WBs to Kara Kara Bazaar:
+    notes: <W, SW Mid
+
+- _Chest<Kara Kara Bazaar Dog>:
+    split-type: None
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    movements: 
+      - to: [-3267.30, 128.83, 2562.79]
+      - to: [-3236.47, 128.14, 2596.45]
+    var-change:
+      Dog: 1
+
+- _Npc::Gerudo<Talk to Rhondson>:
+    coord: [-3269.43, 129.00, 2585.22]
+
+- _Warp::Shrine::DahHesho:
+    line-color: rgb(255,210,0)
+    text: Warp to Dah Hesho
+
+- WB .dir(N>> to N) to Tarrey Town
+
+- _Npc<Talk to Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+
+- _Warp::Shrine::KehNamut:
+    text: Warp to Keh Namut
+
+- BLSS to Rito Village
+
+- _Shop<Clothing Store>:
+    comment: Sell all Wood bundles
+    notes: Buy Tunic and Trousers (equip)
+    coord: [-3631.4375,-1787.5]
+
+- _Npc::Rito<Talk to Fyson>:
+    coord: [-3600.50, 287.60, -1814.47]
+
+- WB .dir(N>) to upper village level:
+    notes: Mash X & B to stop glider
+
+- BLSS to Snowfield Stable:
+    coord: [-3602.75,-1824.5]
+
+- _Chest<Snowfield Stable Dogs>:
+    split-type: UserDefined
+    icon: korok-magnesis
+    comment: .v(Dog) Dogs
+    notes: Square WB NE to 2nd Dog
+    movements: 
+      - to: [-1645.14, 339.24, -2586.63] # Dog 1
+      - to: [-1653.80, 343.59, -2625.11]
+      - to: [-1656.12, 339.06, -2557.84] # Dog 2
+      - to: [-1687.62, 338.40, -2539.70]
+    var-change:
+      Dog: 2
